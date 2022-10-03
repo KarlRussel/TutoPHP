@@ -27,4 +27,12 @@ $moy= (int) readline ("Entrez votre moyenne: "); //Le readline permet à l'utili
         echo "Vous n'avez pas la moyenne";
     }
 */
+$hour = (int)readline ("Entrez une heure : ");
+    if ((9<= $hour && $hour <12) || (15<= $hour && $hour <17)) {
+        echo "La boutique est ouverte";
+    }
+    else {
+        echo "La boutique est fermée";
+    }
+    // VRAI OU VRAI = VRAI    VRAI OU FAUX = VRAI   FAUX OU FAUX = FAUX    VRAI ET VRAI = VRAI   VRAI ET FAUX = FAUX   FAUX ET FAUX = FAUX
 ?>
